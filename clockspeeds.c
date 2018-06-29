@@ -15,7 +15,7 @@ int main(int argc, const char * argv[])
     sleep(1);
     uint64_t endCount = rdtsc();
 
-    printf("%lu\n", (endCount - startCount) / 1000);
-    printf("%lu\n", (endCount - startCount));
+    printf("%llu\n", (endCount - startCount) / 1000);
+    printf("%llu\n", (endCount - startCount));
     return 0;
 }
